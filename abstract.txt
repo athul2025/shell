@@ -1,0 +1,35 @@
+Project Abstract
+
+1. Project Title
+
+Smart Waste Reporting & Management System
+
+2. Problem Statement (Existing System)
+
+Improper waste disposal in public places is a major issue in many cities and villages. Existing complaint systems are often slow, lack transparency, and do not allow citizens to track the progress of their complaints. Many reports remain unresolved due to poor coordination between citizens, administrators, and sanitation workers.
+
+3. Objective
+
+The objective of this project is to develop a full-stack web application that enables citizens to report garbage dumps easily, allows administrators to manage complaints efficiently, and helps sanitation workers update the cleaning status in real time. The system aims to improve waste management and keep public places clean.
+
+4. Proposed Solution
+
+The proposed application provides three types of users: Citizen, Admin, and Worker. Citizens can submit waste complaints by uploading a photo and selecting the location on a map. The Admin verifies the complaint and assigns it to a sanitation worker. After cleaning the area, the worker uploads an "after-cleaning" photo and marks the complaint as completed. Citizens can track the status of their reports from submission to resolution, ensuring transparency throughout the process.
+
+5. Technology Stack
+
+- Frontend: React.js
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Authentication: JWT
+- Maps: Leaflet with OpenStreetMap
+- Image Upload: Cloudinary
+
+6. Benefits of the Project
+
+- Improves communication between citizens and local authorities.
+- Enables faster reporting and resolution of waste-related issues.
+- Provides transparency by allowing users to track complaint status.
+- Helps maintain cleaner public spaces.
+- Supports efficient task management for sanitation workers.
+- Can be expanded in the future with features such as notifications, analytics, and mobile application support.
